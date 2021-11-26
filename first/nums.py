@@ -10,6 +10,9 @@ def nul(a, b):
     return a * b
 
 
+for i in range(-12, 8, 2):
+    print(i, end="; ")
+
 if __name__ == '__main__':
     print(plus(2, 2))
     print(minus(4, 2))
